@@ -24,12 +24,12 @@ PATCH - update favorite recipes
 DELETE - delete a favorite recipe
 
 
-Form validation
-
-User has to input a valid username and password. The field cannot be blank.
+Form validation: User has to input a valid username and password. The field cannot be blank.
 
 4. Which addon(s) do you think you will use and for what? Explore Ember addons at Ember Observer.
 
-1. Flexi - for responsive-design layout
-2. ember-burger-menu - for sidebar menu animation
-3. ember-simple-auth - for authenticating user account login
+Flexi - for responsive-design layout
+
+ember-burger-menu - for sidebar menu animation
+
+ember-simple-auth - for authenticating user account login
