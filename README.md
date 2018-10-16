@@ -1,57 +1,26 @@
-# final-project
+1. What problem are you trying to solve?
+  I am creating a search website for people to explore new recipes pertaining to eggs. The recipes are filtered by type of cooking style (ex. hard boiled, scrambled, boiled, poached, etc.).
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+2. Who is the primary audience?
+People with a surplus of eggs in the fridge and need to explore new recipes to get rid of them. 
 
-## Prerequisites
+3. How will the project requirements be fulfilled?
 
-You will need the following things properly installed on your computer.
+4 Routes
+1. About
+2. Contact
+3. Top recipes
+4. Cooking basics
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+POST - create a new recipe
+GET - search the web for egg recipes
+PATCH - update favorite recipes
+DELETE - delete a favorite recipe
 
-## Installation
+Form validation
+User has to input a valid username and password. The field cannot be blank.
 
-* `git clone <repository-url>` this repository
-* `cd final-project`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+4. Which addon(s) do you think you will use and for what? Explore Ember addons at Ember Observer.
+Flexi - for responsive-design layout
+ember-burger-menu - for sidebar menu animation
+ember-simple-auth - for authenticating user account login
